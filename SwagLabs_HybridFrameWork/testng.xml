@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+
+<groups>
+<run>
+<!-- <include name="EndToEnd"/>
+<include name="Master"/>
+<include name="Regression"/>
+<include name="Functional"/>  -->
+<!-- <exclude name="" /> -->
+</run>
+</groups>
+<listeners>
+<listener class-name="com.swagLabs.utilities.ExtentReportManager" />
+</listeners>
+
+ <test thread-count="5" name="TestChrome">
+<parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="com.swagLabs.testCases.LoginPageElementVerification"/>
+      <class name="com.swagLabs.testCases.LoginPageFieldVerification"/>
+      <class name="com.swagLabs.testCases.AddToCartFunctionalityTest"/>
+      <class name="com.swagLabs.testCases.LoginPageMissingCredentialsTest"/>
+      <class name="com.swagLabs.testCases.ProductDetailsVerificationTest"/>
+      <class name="com.swagLabs.testCases.OrderSuccessTest"/>
+      <class name="com.swagLabs.testCases.CartContentsVerificationTest"/>
+      <class name="com.swagLabs.testCases.ContinueShoppingButton"/>
+      <class name="com.swagLabs.testCases.LoginPageTest"/>
+      <class name="com.swagLabs.testCases.ProductRemovalFromCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

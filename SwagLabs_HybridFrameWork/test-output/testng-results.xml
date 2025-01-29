@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-29T10:18:23 IST" name="Suite" finished-at="2025-01-29T10:21:51 IST" duration-ms="208364">
+    <groups>
+      <group name="Functional">
+        <method signature="LoginPageElementVerification.verifyLoginPageElements()[pri:0, instance:com.swagLabs.testCases.LoginPageElementVerification@3f390d63]" name="verifyLoginPageElements" class="com.swagLabs.testCases.LoginPageElementVerification"/>
+        <method signature="LoginPageFieldVerification.verifyLoginPageFieldVerification()[pri:0, instance:com.swagLabs.testCases.LoginPageFieldVerification@47a5b70d]" name="verifyLoginPageFieldVerification" class="com.swagLabs.testCases.LoginPageFieldVerification"/>
+        <method signature="LoginPageMissingCredentialsTest.verifyLoginWithMissingUsernameAndPassword()[pri:1, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" name="verifyLoginWithMissingUsernameAndPassword" class="com.swagLabs.testCases.LoginPageMissingCredentialsTest"/>
+        <method signature="LoginPageMissingCredentialsTest.verifyLoginWithMissingPassword()[pri:2, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" name="verifyLoginWithMissingPassword" class="com.swagLabs.testCases.LoginPageMissingCredentialsTest"/>
+      </group> <!-- Functional -->
+      <group name="Master">
+        <method signature="CartContentsVerificationTest.addItemsToTheCart()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" name="addItemsToTheCart" class="com.swagLabs.testCases.CartContentsVerificationTest"/>
+        <method signature="CartContentsVerificationTest.testProductsAreDisplayed()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" name="testProductsAreDisplayed" class="com.swagLabs.testCases.CartContentsVerificationTest"/>
+        <method signature="AddToCartFunctionalityTest.addItemsToTheCart()[pri:0, instance:com.swagLabs.testCases.AddToCartFunctionalityTest@424fd310]" name="addItemsToTheCart" class="com.swagLabs.testCases.AddToCartFunctionalityTest"/>
+        <method signature="LoginPageElementVerification.verifyLoginPageElements()[pri:0, instance:com.swagLabs.testCases.LoginPageElementVerification@3f390d63]" name="verifyLoginPageElements" class="com.swagLabs.testCases.LoginPageElementVerification"/>
+        <method signature="LoginPageFieldVerification.verifyLoginPageFieldVerification()[pri:0, instance:com.swagLabs.testCases.LoginPageFieldVerification@47a5b70d]" name="verifyLoginPageFieldVerification" class="com.swagLabs.testCases.LoginPageFieldVerification"/>
+        <method signature="LoginPageMissingCredentialsTest.verifyLoginWithMissingUsernameAndPassword()[pri:1, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" name="verifyLoginWithMissingUsernameAndPassword" class="com.swagLabs.testCases.LoginPageMissingCredentialsTest"/>
+        <method signature="LoginPageMissingCredentialsTest.verifyLoginWithMissingPassword()[pri:2, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" name="verifyLoginWithMissingPassword" class="com.swagLabs.testCases.LoginPageMissingCredentialsTest"/>
+      </group> <!-- Master -->
+      <group name="EndToEnd">
+        <method signature="CartContentsVerificationTest.testProductsAreDisplayed()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" name="testProductsAreDisplayed" class="com.swagLabs.testCases.CartContentsVerificationTest"/>
+      </group> <!-- EndToEnd -->
+      <group name="Regression">
+        <method signature="CartContentsVerificationTest.addItemsToTheCart()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" name="addItemsToTheCart" class="com.swagLabs.testCases.CartContentsVerificationTest"/>
+        <method signature="AddToCartFunctionalityTest.addItemsToTheCart()[pri:0, instance:com.swagLabs.testCases.AddToCartFunctionalityTest@424fd310]" name="addItemsToTheCart" class="com.swagLabs.testCases.AddToCartFunctionalityTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-01-29T10:18:23 IST" name="TestChrome" finished-at="2025-01-29T10:21:51 IST" duration-ms="208364">
+      <class name="com.swagLabs.testCases.ContinueShoppingButton">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.ContinueShoppingButton@85e6769]" started-at="2025-01-29T10:20:24 IST" name="setUp" finished-at="2025-01-29T10:20:29 IST" duration-ms="5583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemsToTheCart()[pri:1, instance:com.swagLabs.testCases.ContinueShoppingButton@85e6769]" started-at="2025-01-29T10:20:29 IST" name="addItemsToTheCart" finished-at="2025-01-29T10:20:30 IST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToTheCart -->
+        <test-method signature="testContinueShoppingButton()[pri:0, instance:com.swagLabs.testCases.ContinueShoppingButton@85e6769]" started-at="2025-01-29T10:20:30 IST" name="testContinueShoppingButton" finished-at="2025-01-29T10:20:30 IST" depends-on-methods="com.swagLabs.testCases.ContinueShoppingButton.addItemsToTheCart" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContinueShoppingButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.ContinueShoppingButton@85e6769]" started-at="2025-01-29T10:20:30 IST" name="tearDown" finished-at="2025-01-29T10:20:31 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.ContinueShoppingButton -->
+      <class name="com.swagLabs.testCases.LoginPageMissingCredentialsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" started-at="2025-01-29T10:19:17 IST" name="setUp" finished-at="2025-01-29T10:19:23 IST" duration-ms="5622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithMissingUsernameAndPassword()[pri:1, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" started-at="2025-01-29T10:19:23 IST" name="verifyLoginWithMissingUsernameAndPassword" finished-at="2025-01-29T10:19:23 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithMissingUsernameAndPassword -->
+        <test-method signature="verifyLoginWithMissingPassword()[pri:2, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" started-at="2025-01-29T10:19:23 IST" name="verifyLoginWithMissingPassword" finished-at="2025-01-29T10:20:04 IST" duration-ms="40503" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Epic sadface: Password is required']"}
+  (Session info: chrome=132.0.6834.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92f47c28097674fc5ee1f95b997a98ac, findElement {using=xpath, value=//h3[text()='Epic sadface: Password is required']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60135}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60135/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92f47c28097674fc5ee1f95b997a98ac> but was:<Epic sadface: Username is required>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Epic sadface: Password is required']"}
+  (Session info: chrome=132.0.6834.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92f47c28097674fc5ee1f95b997a98ac, findElement {using=xpath, value=//h3[text()='Epic sadface: Password is required']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60135}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60135/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92f47c28097674fc5ee1f95b997a98ac> but was:<Epic sadface: Username is required>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at com.swagLabs.testCases.LoginPageMissingCredentialsTest.verifyLoginWithMissingPassword(LoginPageMissingCredentialsTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithMissingPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.LoginPageMissingCredentialsTest@1a45193b]" started-at="2025-01-29T10:20:04 IST" name="tearDown" finished-at="2025-01-29T10:20:05 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.LoginPageMissingCredentialsTest -->
+      <class name="com.swagLabs.testCases.CartContentsVerificationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" started-at="2025-01-29T10:20:15 IST" name="setUp" finished-at="2025-01-29T10:20:22 IST" duration-ms="6935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemsToTheCart()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" started-at="2025-01-29T10:20:22 IST" name="addItemsToTheCart" finished-at="2025-01-29T10:20:23 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToTheCart -->
+        <test-method signature="testProductsAreDisplayed()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" started-at="2025-01-29T10:20:23 IST" name="testProductsAreDisplayed" finished-at="2025-01-29T10:20:23 IST" depends-on-methods="com.swagLabs.testCases.CartContentsVerificationTest.addItemsToTheCart" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsAreDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.CartContentsVerificationTest@6c25e6c4]" started-at="2025-01-29T10:20:23 IST" name="tearDown" finished-at="2025-01-29T10:20:24 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.CartContentsVerificationTest -->
+      <class name="com.swagLabs.testCases.ProductDetailsVerificationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.ProductDetailsVerificationTest@6e6d5d29]" started-at="2025-01-29T10:20:48 IST" name="setUp" finished-at="2025-01-29T10:20:58 IST" duration-ms="10051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="applyAllSortingFilters()[pri:0, instance:com.swagLabs.testCases.ProductDetailsVerificationTest@6e6d5d29]" started-at="2025-01-29T10:20:58 IST" name="applyAllSortingFilters" finished-at="2025-01-29T10:21:01 IST" depends-on-methods="verifyLoginWithValidCredentials" duration-ms="3331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyAllSortingFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.ProductDetailsVerificationTest@6e6d5d29]" started-at="2025-01-29T10:21:01 IST" name="tearDown" finished-at="2025-01-29T10:21:03 IST" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.ProductDetailsVerificationTest -->
+      <class name="com.swagLabs.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.LoginPageTest@c5ee75e]" started-at="2025-01-29T10:20:31 IST" name="setUp" finished-at="2025-01-29T10:20:45 IST" duration-ms="13680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.swagLabs.testCases.LoginPageTest@c5ee75e]" started-at="2025-01-29T10:20:45 IST" name="verifyLoginWithValidCredentials" finished-at="2025-01-29T10:20:46 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.LoginPageTest@c5ee75e]" started-at="2025-01-29T10:20:46 IST" name="tearDown" finished-at="2025-01-29T10:20:48 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.LoginPageTest -->
+      <class name="com.swagLabs.testCases.OrderSuccessTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.OrderSuccessTest@5c530d1e]" started-at="2025-01-29T10:20:05 IST" name="setUp" finished-at="2025-01-29T10:20:11 IST" duration-ms="6292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemsToCart()[pri:1, instance:com.swagLabs.testCases.OrderSuccessTest@5c530d1e]" started-at="2025-01-29T10:20:11 IST" name="addItemsToCart" finished-at="2025-01-29T10:20:12 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCart -->
+        <test-method signature="proceedToCheckout()[pri:0, instance:com.swagLabs.testCases.OrderSuccessTest@5c530d1e]" started-at="2025-01-29T10:20:12 IST" name="proceedToCheckout" finished-at="2025-01-29T10:20:12 IST" depends-on-methods="com.swagLabs.testCases.OrderSuccessTest.addItemsToCart" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckout -->
+        <test-method signature="enterValidDetailsInCheckout()[pri:0, instance:com.swagLabs.testCases.OrderSuccessTest@5c530d1e]" started-at="2025-01-29T10:20:12 IST" name="enterValidDetailsInCheckout" finished-at="2025-01-29T10:20:14 IST" depends-on-methods="com.swagLabs.testCases.OrderSuccessTest.proceedToCheckout" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValidDetailsInCheckout -->
+        <test-method signature="completeCheckoutOverview()[pri:0, instance:com.swagLabs.testCases.OrderSuccessTest@5c530d1e]" started-at="2025-01-29T10:20:14 IST" name="completeCheckoutOverview" finished-at="2025-01-29T10:20:14 IST" depends-on-methods="com.swagLabs.testCases.OrderSuccessTest.enterValidDetailsInCheckout" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutOverview -->
+        <test-method signature="verifyOrderSuccessMessage()[pri:0, instance:com.swagLabs.testCases.OrderSuccessTest@5c530d1e]" started-at="2025-01-29T10:20:14 IST" name="verifyOrderSuccessMessage" finished-at="2025-01-29T10:20:14 IST" depends-on-methods="com.swagLabs.testCases.OrderSuccessTest.completeCheckoutOverview" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSuccessMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.OrderSuccessTest@5c530d1e]" started-at="2025-01-29T10:20:14 IST" name="tearDown" finished-at="2025-01-29T10:20:15 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.OrderSuccessTest -->
+      <class name="com.swagLabs.testCases.LoginPageFieldVerification">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.LoginPageFieldVerification@47a5b70d]" started-at="2025-01-29T10:18:55 IST" name="setUp" finished-at="2025-01-29T10:19:01 IST" duration-ms="6094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageFieldVerification()[pri:0, instance:com.swagLabs.testCases.LoginPageFieldVerification@47a5b70d]" started-at="2025-01-29T10:19:01 IST" name="verifyLoginPageFieldVerification" finished-at="2025-01-29T10:19:06 IST" duration-ms="4585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageFieldVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.LoginPageFieldVerification@47a5b70d]" started-at="2025-01-29T10:19:06 IST" name="tearDown" finished-at="2025-01-29T10:19:06 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.LoginPageFieldVerification -->
+      <class name="com.swagLabs.testCases.AddToCartFunctionalityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.AddToCartFunctionalityTest@424fd310]" started-at="2025-01-29T10:19:06 IST" name="setUp" finished-at="2025-01-29T10:19:14 IST" duration-ms="7471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemsToTheCart()[pri:0, instance:com.swagLabs.testCases.AddToCartFunctionalityTest@424fd310]" started-at="2025-01-29T10:19:14 IST" name="addItemsToTheCart" finished-at="2025-01-29T10:19:17 IST" duration-ms="3057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToTheCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.AddToCartFunctionalityTest@424fd310]" started-at="2025-01-29T10:19:17 IST" name="tearDown" finished-at="2025-01-29T10:19:17 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.AddToCartFunctionalityTest -->
+      <class name="com.swagLabs.testCases.LoginPageElementVerification">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.LoginPageElementVerification@3f390d63]" started-at="2025-01-29T10:18:23 IST" name="setUp" finished-at="2025-01-29T10:18:53 IST" duration-ms="29731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageElements()[pri:0, instance:com.swagLabs.testCases.LoginPageElementVerification@3f390d63]" started-at="2025-01-29T10:18:53 IST" name="verifyLoginPageElements" finished-at="2025-01-29T10:18:54 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.LoginPageElementVerification@3f390d63]" started-at="2025-01-29T10:18:54 IST" name="tearDown" finished-at="2025-01-29T10:18:55 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.LoginPageElementVerification -->
+      <class name="com.swagLabs.testCases.ProductRemovalFromCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swagLabs.testCases.ProductRemovalFromCart@48a12036]" started-at="2025-01-29T10:21:03 IST" name="setUp" finished-at="2025-01-29T10:21:09 IST" duration-ms="5946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemsToTheCart()[pri:1, instance:com.swagLabs.testCases.ProductRemovalFromCart@48a12036]" started-at="2025-01-29T10:21:09 IST" name="addItemsToTheCart" finished-at="2025-01-29T10:21:10 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToTheCart -->
+        <test-method signature="removeItemsToTheCart()[pri:0, instance:com.swagLabs.testCases.ProductRemovalFromCart@48a12036]" started-at="2025-01-29T10:21:10 IST" name="removeItemsToTheCart" finished-at="2025-01-29T10:21:50 IST" depends-on-methods="com.swagLabs.testCases.ProductRemovalFromCart.addItemsToTheCart" duration-ms="40215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemsToTheCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.testCases.ProductRemovalFromCart@48a12036]" started-at="2025-01-29T10:21:50 IST" name="tearDown" finished-at="2025-01-29T10:21:51 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swagLabs.testCases.ProductRemovalFromCart -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
