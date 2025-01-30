@@ -23,21 +23,49 @@ SwagLabs Hybrid Framework is a **Selenium-based test automation framework** desi
 | **Java Faker**      | Fake test data generation       | 1.0.2   |
 | **Apache Commons Email** | Email notifications        | 1.6.0   |
 
+```
 ## 📂 Project Structure  
 # SwagLabs_HybridFramework
 
-```
-SwagLabs_HybridFramework/
 │── src/
 │   ├── main/
-│   │   ├── java/          # Framework core & utilities
-│   │   ├── resources/     # Config files, log4j, test data
+│   │   ├── java/                   # Framework core & utilities
+│   │   ├── resources/               # Config files, log4j, test data
 │   ├── test/
-│   │   ├── java/          # Test cases
-│   │   ├── resources/     # Test data & reports
-│── test-output/           # Generated reports
-│── pom.xml                # Maven dependencies & build configuration
-│── README.md              # Project documentation
+│   │   ├── java/
+│   │   │   ├── com.swagLabs.pageObjects/   # Page Object Model (POM)
+│   │   │   │   ├── BasePage.java
+│   │   │   │   ├── CheckoutCompletePage.java
+│   │   │   │   ├── CheckoutOverviewPage.java
+│   │   │   │   ├── CheckoutPage.java
+│   │   │   │   ├── LoginPage.java
+│   │   │   │   ├── LogoutPage.java
+│   │   │   │   ├── ProductPage.java
+│   │   │   │   ├── YourCartPage.java
+│   │   │   ├── com.swagLabs.testBase/      # Base Test Class
+│   │   │   │   ├── BaseClass.java
+│   │   │   ├── com.swagLabs.testCases/     # Test Cases
+│   │   │   │   ├── AddToCartFunctionalityTest.java
+│   │   │   │   ├── CartContentsVerificationTest.java
+│   │   │   │   ├── ContinueShoppingButton.java
+│   │   │   │   ├── LoginPageElementVerification.java
+│   │   │   │   ├── LoginPageFieldVerification.java
+│   │   │   │   ├── LoginPageMissingCredentialsTest.java
+│   │   │   │   ├── LoginPageTest.java
+│   │   │   │   ├── LogoutButtonTest.java
+│   │   │   │   ├── OrderSuccessTest.java
+│   │   │   │   ├── ProductDetailsVerificationTest.java
+│   │   │   │   ├── ProductRemovalFromCart.java
+│   │   │   ├── com.swagLabs.utilities/     # Utility Classes
+│   │   │   │   ├── ExtentReportManager.java
+│   │   ├── resources/              # Test Data, Reports & Config
+│   │   │   ├── log4j2.xml
+│   │   │   ├── log4j2-back.xml
+│── test-output/                     # Generated reports
+│── logs/                             # Logs directory
+│── screenshots/                      # Captured screenshots on failures
+│── pom.xml                           # Maven dependencies & build configuration
+│── README.md                         # Project documentation
 ```
 ## 📜 Reporting & Logging
 
@@ -46,4 +74,4 @@ SwagLabs_HybridFramework/
 - **Screenshots:** Captured on failures and stored in the `/screenshots` folder.  
 
 ## 👤 Author  
-## Dinakar Reddy
+### Dinakar Reddy
